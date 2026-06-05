@@ -1,7 +1,6 @@
 \documentclass[12pt]{article}
-\usepackage[margin=0.75in]{geometry}
-\usepackage{fontspec}
-\setmainfont{Latin Modern Roman}
+\usepackage[margin=0.72in]{geometry}
+\usepackage{lmodern}
 \usepackage{microtype}
 \usepackage{multicol}
 \usepackage{fancyhdr}
@@ -9,74 +8,96 @@
 \usepackage{enumitem}
 \usepackage{xcolor}
 \usepackage[hidelinks]{hyperref}
-\setlength{\columnsep}{0.28in}
-\setlength{\parindent}{1.1em}
-\setlength{\parskip}{0.35em}
+
+\setlength{\columnsep}{0.30in}
+\setlength{\parindent}{1.05em}
+\setlength{\parskip}{0.24em}
 \setlength{\headheight}{15pt}
 \titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
 \titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
 \pagestyle{fancy}
 \fancyhf{}
+\fancyhead[L]{Whately: Terms and Meaning}
+\fancyhead[R]{Reading Handout}
 \fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
-\newcommand{\focusbox}[1]{\par\vspace{0.4em}\noindent\begingroup\setlength{\fboxsep}{6pt}\colorbox{gray!12}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep\relax}#1\end{minipage}}\endgroup\par\vspace{0.5em}}
-\newcommand{\studentline}{\vspace{0.35em}\hrule\vspace{0.65em}}
 
-\fancyhead[L]{Whately: One Word, Two Ideas}
-\fancyhead[R]{Student Reading}
+\newcommand{\focusbox}[1]{%
+\vspace{0.4em}\noindent\colorbox{gray!12}{\begin{minipage}{0.96\linewidth}#1\end{minipage}}\vspace{0.5em}}
+
 \begin{document}
 \begin{center}
-{\LARGE\bfseries One Word, Two Ideas}\par\vspace{0.25em}
-{\large\scshape Why Ambiguity Breaks Arguments}\par\vspace{0.5em}
-{Adapted and modernized from Richard Whately, \textit{Elements of Logic}}\par\vspace{0.6em}
-\rule{0.82\textwidth}{0.4pt}
+{\LARGE\bfseries Logic Is Not Magic}\par\vspace{0.15em}
+{\large\scshape Reading 2: One Word, Two Ideas}\par\vspace{0.45em}
+\rule{0.82\textwidth}{0.4pt}\par\vspace{0.6em}
 \end{center}
-
-\section*{Central Question}
-How can the same word carry two different meanings inside a single argument, and what happens when it does?
 
 \section*{Vocabulary Preview}
 \begin{multicols}{2}
 \begin{itemize}[leftmargin=*, itemsep=0.18em]
-\item \textbf{Term}: a word or phrase used to stand for a particular idea.
-\item \textbf{Meaning}: the specific idea a term refers to in a given context.
-\item \textbf{Ambiguity}: the condition in which one word or phrase can refer to more than one idea.
-\item \textbf{Equivocation}: the use of one word in two different senses within a single argument.
-\item \textbf{Fix the term}: to state clearly which meaning is intended before proceeding with the argument.
+\item \textbf{Term}: A word or phrase used to stand for a particular idea.
+\item \textbf{Meaning}: The specific idea a term refers to in a given context.
+\item \textbf{Ambiguity}: The condition in which one word or phrase can refer to more than one idea.
+\item \textbf{Equivocation}: Using one word in two different senses within a single argument.
+\item \textbf{Fix the term}: To state clearly which meaning is intended before evaluating an argument.
+\item \textbf{Context}: The surrounding words and situation that help determine meaning.
 \end{itemize}
 \end{multicols}
 
 \section*{Introduction}
-In the first week we practiced slowing down any argument and asking four questions: What is the conclusion? What reason is actually stated? What hidden assumption is required? Does the conclusion truly follow?
+In the first reading we learned to slow an argument down and ask four questions: What is the conclusion? What reason is actually given? What hidden assumption must be true? Does the conclusion really follow?
 
-One frequent reason arguments fail this test is that a key term is being used in two different senses without anyone noticing. Richard Whately observed that many disputes and faulty conclusions arise not from flawed reasoning, but from words that quietly shift their meaning in the middle of an argument.
+One of the most common reasons arguments fail this test is that a key word is being used in two different senses without anyone noticing the shift. Richard Whately observed that many faulty conclusions and pointless disputes arise not from bad reasoning, but from words that quietly change their meaning in the middle of an argument.
 
+This reading is adapted from the Introduction to Whately's \textit{Elements of Logic}.
+
+\focusbox{\textbf{Source note:} Adapted and modernized from Richard Whately, \textit{Elements of Logic}, Introduction. This version preserves Whately's central claim that many apparent failures of logic result from unacknowledged shifts in the meaning of terms.}
+
+\begin{multicols}{2}
 \section*{Reading}
-A \textit{term} is a word or short phrase that stands for an idea. The word “bank,” for example, can refer to a financial institution or to the land beside a river. The word “light” can mean “not heavy” or “bright.” In ordinary conversation the surrounding words usually make the intended meaning clear, so ambiguity rarely causes trouble.
 
-Trouble appears when a speaker or writer uses the same word in two different senses inside one continuous argument. This shift is called \textit{equivocation}. The argument appears to prove its conclusion only because the meaning of the term has changed without being acknowledged.
+\subsection*{1. Terms Stand for Ideas}
+A \textit{term} is a word or short phrase that stands for an idea. When we say “bank,” we might mean a financial institution or the land beside a river. When we say “light,” we might mean “not heavy” or “bright.” Most words have more than one possible meaning. In ordinary conversation the surrounding words usually make the intended meaning clear.
 
-Consider a simple case: “No bank is entirely safe from thieves. The edge of a river is a bank. Therefore the edge of a river is not entirely safe from thieves.” The conclusion is plainly false. The argument collapses once we notice that “bank” is used first in the financial sense and then in the geographical sense.
+\subsection*{2. The Problem of Shifting Meaning}
+The trouble begins when someone uses the same word in two different senses inside one continuous argument without acknowledging the change. This is called \textit{equivocation}. The argument appears to prove its conclusion only because the meaning of the term has shifted.
 
-A more serious example appears in debates over education. Someone argues: “A liberal education does not prepare students for employment. Therefore liberal education is of little value.” Here the word “liberal” shifts meaning. In one sense it refers to a broad education in the arts and sciences aimed at intellectual formation. In another sense it refers to a particular political orientation. If the term is fixed to the first meaning, the claim that such an education lacks value becomes much harder to sustain.
+\subsection*{3. A Simple Case}
+Consider this argument: “No bank is entirely safe from thieves. The edge of a river is a bank. Therefore the edge of a river is not entirely safe from thieves.”
 
-Another common case occurs in economic argument: “The government must not interfere with the free market. Therefore it must not prohibit child labor.” The phrase “free market” moves between two ideas. In one sense it means an economy free of all government regulation. In another sense it means an economy in which individuals may buy and sell without being compelled by force. The first sense supports the conclusion; the second does not. The argument only appears sound because the term was never fixed.
+The conclusion is obviously false. The argument collapses once we notice that “bank” is used first in the financial sense and then in the geographical sense. The two meanings were never fixed.
 
-Whately’s practical point is this: before testing whether a conclusion follows from its reasons, one must first determine whether the key terms have been used in a single, consistent sense throughout the argument. If they have not, the meaning of the disputed term must be fixed before any further evaluation can be fair or accurate.
+\subsection*{4. A More Serious Example}
+A more important case appears in debates over education. Someone argues: “A liberal education does not prepare students for employment. Therefore liberal education is of little value.”
 
-Fixing a term does not require choosing a permanent or perfect definition. It requires only that, for the purposes of the present argument, the speaker or reader states clearly which idea the word is being used to represent. Once the meaning is fixed, the hidden assumption often becomes visible and the four-step test can proceed.
+Here the word “liberal” moves between two ideas. In one sense it refers to a broad education in the arts and sciences aimed at intellectual formation. In another sense it refers to a particular political orientation. If the term is fixed to the educational meaning, the claim that such an education lacks value becomes much harder to defend.
 
+\subsection*{5. Another Common Case}
+The same problem appears in economic argument: “The government must not interfere with the free market. Therefore it must not prohibit child labor.”
+
+The phrase “free market” shifts between two different ideas. In one sense it means an economy free of all government regulation. In another sense it means an economy in which individuals may buy and sell without being compelled by force. The first sense supports the conclusion; the second does not. The argument only appears sound because the term was never fixed.
+
+\subsection*{6. The Practical Point}
+Before testing whether a conclusion follows from its reasons, one must first determine whether the key terms have been used in a single, consistent sense throughout the argument. If they have not, the meaning of the disputed term must be fixed before any further evaluation can be fair.
+
+Fixing a term does not require choosing a permanent or perfect definition. It requires only that, for the purposes of the present argument, the speaker states clearly which idea the word is being used to represent. Once the meaning is fixed, the hidden assumption often becomes visible and the four-step test can proceed.
+
+\subsection*{7. Why This Matters}
 Students who learn to detect this kind of ambiguity acquire a defensive habit. They become less easily persuaded by arguments that succeed only because a word has been allowed to mean two things at once. They also become more capable of constructing arguments that remain clear because their central terms have been defined at the outset.
 
 \section*{Reading Focus}
 \begin{enumerate}[leftmargin=*]
-\item What is a term, and why is it possible for the same word to stand for different ideas in different contexts?
+\item What is a term, and why can the same word stand for different ideas in different contexts?
 \item Using one of the examples in the reading, explain the difference between ambiguity and equivocation.
-\item In the example concerning liberal education, what two distinct ideas does the word “liberal” represent?
+\item In the example about liberal education, what two distinct ideas does the word “liberal” represent?
 \item Why does fixing the meaning of a key term often make the hidden assumption of an argument easier to identify?
-\item Select one of the arguments in the reading and rewrite it so that the key term is used in only one consistent sense throughout.
-\item Why might two people who seem to disagree actually be using the same word to represent two different ideas?
 \end{enumerate}
 
-\studentline
+\section*{Window Note and Summary}
+Create a window note that shows how one of the arguments in this reading depends on an unacknowledged shift in the meaning of a key term. Include at least two drawings or symbols that represent the two different meanings. At the bottom, write a 4--6 sentence summary explaining why fixing terms matters for evaluating arguments.
+
+\section*{Connection to Week 1}
+How does the skill of fixing terms connect to the four questions we practiced in the first reading (conclusion, stated reason, hidden assumption, test)?
+
+\end{multicols}
 \end{document}
