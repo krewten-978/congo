@@ -1,0 +1,224 @@
+\documentclass[12pt]{article}
+\usepackage[letterpaper,top=0.75in,bottom=0.75in,left=0.78in,right=1.55in,marginparwidth=1.15in,marginparsep=0.18in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{1.05em}
+\setlength{\parskip}{0.32em}
+\setlength{\headheight}{15pt}
+\titleformat{\section}{\large\bfseries\scshape}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Whately Logic: Macbeth Lit-Anchor}
+\fancyhead[R]{Lesson 1}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\newcommand{\focusbox}[1]{\par\vspace{0.35em}\noindent\begingroup\setlength{\fboxsep}{6pt}\colorbox{gray!12}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep\relax}#1\end{minipage}}\endgroup\par\vspace{0.45em}}
+\newcommand{\studentline}{\vspace{0.32em}\hrule\vspace{0.58em}}
+\newcommand{\gloss}[1]{\marginpar{\footnotesize\raggedright\color{gray!70!black}#1}}
+\newcommand{\speaker}[1]{\par\vspace{0.35em}\noindent\textsc{#1}\par\vspace{-0.15em}}
+
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Macbeth Lit-Anchor}\par\vspace{0.18em}
+{\large\scshape Prophecy Is Not Proof}\par\vspace{0.35em}
+{Lesson 1: Testing Macbeth's Reasoning with Whately's Four Questions}\par\vspace{0.55em}
+\rule{0.82\textwidth}{0.4pt}
+\end{center}
+
+\section*{Purpose}
+A lit-anchor connects the week's logic lesson to a recurring literary text. In Lesson 1, Whately teaches that logic is powerful but limited: it can test whether a conclusion follows from reasons, but it cannot supply wisdom, virtue, or all the facts. \textit{Macbeth} gives us a tragic case. Macbeth hears a prophecy, but the prophecy itself does not tell him what to do. The logical question is not merely, ``What did the witches say?'' It is: \textit{What does Macbeth conclude from what they say, and has that conclusion been earned?}
+
+\focusbox{\textbf{Whately's four questions:} (1) What is the conclusion? (2) What reason is actually given? (3) What hidden assumption must be true? (4) Does the conclusion really follow?}
+
+\section*{Central Question}
+When Macbeth hears a prophecy, what does he conclude---and does that conclusion actually follow?
+
+\section*{Guided Text: Act 1, Scene 3}
+Read the original text below. The side notes are light glosses only; they do not replace the text. Watch for the movement from \textit{prediction} to \textit{interpretation}.
+
+\speaker{The Witches}
+\begin{verse}
+All hail, Macbeth! hail to thee, thane of Glamis!\\
+All hail, Macbeth, hail to thee, thane of Cawdor!\\
+All hail, Macbeth, thou shalt be king hereafter!\gloss{The witches give Macbeth three titles: one present, one unknown to him but already granted, and one future.}
+\end{verse}
+
+\speaker{Macbeth}
+\begin{verse}
+Stay, you imperfect speakers, tell me more:\\
+By Sinel's death I know I am thane of Glamis;\\
+But how of Cawdor? the thane of Cawdor lives,\\
+A prosperous gentleman; and to be king\\
+Stands not within the prospect of belief,\\
+No more than to be Cawdor. Say from whence\\
+You owe this strange intelligence? or why\\
+Upon this blasted heath you stop our way\\
+With such prophetic greeting? Speak, I charge you.\gloss{Macbeth asks for evidence. At this moment, he does not simply accept the prophecy.}
+\end{verse}
+
+\speaker{Ross}
+\begin{verse}
+And, for an earnest of a greater honour,\\
+He bade me, from him, call thee thane of Cawdor:\\
+In which addition, hail, most worthy thane!\\
+For it is thine.\gloss{The second title is confirmed. Macbeth now has a reason to take the rest of the prophecy seriously.}
+\end{verse}
+
+\speaker{Banquo}
+\begin{verse}
+What, can the devil speak true?\gloss{Banquo asks the source-credibility question that Macbeth needs. Truth in one point does not prove trustworthiness in all points.}
+\end{verse}
+
+\speaker{Macbeth, aside}
+\begin{verse}
+Glamis, and thane of Cawdor!\\
+The greatest is behind.\gloss{Macbeth begins moving from one confirmed prediction toward the larger promised future.}
+\end{verse}
+
+\speaker{Banquo}
+\begin{verse}
+That trusted home\\
+Might yet enkindle you unto the crown,\\
+Besides the thane of Cawdor. But 'tis strange:\\
+And oftentimes, to win us to our harm,\\
+The instruments of darkness tell us truths,\\
+Win us with honest trifles, to betray's\\
+In deepest consequence.\gloss{Banquo offers a rival interpretation: a true prediction may be bait rather than trustworthy guidance.}
+\end{verse}
+
+\speaker{Macbeth, aside}
+\begin{verse}
+Two truths are told,\\
+As happy prologues to the swelling act\\
+Of the imperial theme.\gloss{Macbeth treats the two truths as prologues to kingship. That is an inference, not merely an observation.}\\
+Cannot be ill, cannot be good: if ill,\\
+Why hath it given me earnest of success,\\
+Commencing in a truth? I am thane of Cawdor:\\
+If good, why do I yield to that suggestion\\
+Whose horrid image doth unfix my hair\\
+And make my seated heart knock at my ribs,\\
+Against the use of nature? Present fears\\
+Are less than horrible imaginings:\\
+My thought, whose murder yet is but fantastical,\\
+Shakes so my single state of man that function\\
+Is smother'd in surmise, and nothing is\\
+But what is not.\gloss{Murder enters Macbeth's imagination before any command has been given. The prophecy does not explicitly tell him to murder.}
+\end{verse}
+
+\speaker{Macbeth, aside}
+\begin{verse}
+If chance will have me king, why, chance may crown me,\\
+Without my stir.\gloss{Macbeth briefly sees the logical gap: if chance will crown him, action may not be required.}
+\end{verse}
+
+\section*{Guided Analysis}
+The witches give Macbeth a prediction. They do not give him a command. They do not say that murder is necessary. They do not say that kingship would be good for Macbeth or Scotland. They do not say that Macbeth may do evil in order to make the prediction come true.
+
+A careful reader can separate at least three different claims:
+
+\begin{enumerate}[leftmargin=*]
+\item \textbf{Possible claim:} Macbeth may become king.\\
+\textbf{Reason:} The witches predicted it, and one part of their greeting has already come true.\\
+\textbf{Hidden assumption:} If one part of the prophecy comes true, the rest may be reliable.\\
+\textbf{Test:} The claim is plausible, but not certain. One fulfilled prediction gives Macbeth reason to wonder; it does not prove that every further implication is trustworthy.
+
+\item \textbf{Dangerous claim:} Macbeth should act to become king.\\
+\textbf{Reason:} He has been told he will become king.\\
+\textbf{Hidden assumption:} If something is predicted, Macbeth is justified in helping it happen.\\
+\textbf{Test:} The conclusion does not follow. Prediction is not permission. Possibility is not command. Desire is not proof.
+
+\item \textbf{Moral claim Macbeth has not proved:} Murder may be a legitimate path to the promised future.\\
+\textbf{Reason:} Macbeth imagines kingship and murder together.\\
+\textbf{Hidden assumption:} A promised future can excuse the means used to reach it.\\
+\textbf{Test:} The conclusion does not follow. Macbeth's imagination has moved faster than his proof.
+\end{enumerate}
+
+\focusbox{\textbf{Lesson 1 takeaway:} Logic can show that Macbeth's conclusion has outrun his evidence. But logic alone cannot make Macbeth virtuous. Whately's point is confirmed: logic can discipline judgment, but it cannot replace moral character.}
+
+\section*{Discussion}
+Use these questions to prepare for the independent passage.
+
+\begin{enumerate}[leftmargin=*]
+\item What exactly do the witches tell Macbeth? What do they not tell him?
+\item What does Macbeth add to the prophecy from his own imagination?
+\item Why is Banquo's question, ``What, can the devil speak true?'' logically important?
+\item What does Macbeth mean when he says, ``If chance will have me king, why, chance may crown me, / Without my stir''?
+\item Even if Macbeth has reason to believe he may become king, does that give him reason to murder Duncan?
+\item Where does logic help us understand Macbeth, and where do we need moral judgment beyond logic?
+\end{enumerate}
+
+\section*{Independent Text: Act 1, Scene 7}
+Now read Macbeth's soliloquy before Duncan's murder. This is your independent analysis passage. Macbeth is no longer merely reacting to prophecy. He is weighing reasons.
+
+\speaker{Macbeth}
+\begin{verse}
+If it were done when 'tis done, then 'twere well\\
+It were done quickly: if the assassination\\
+Could trammel up the consequence, and catch\\
+With his surcease success; that but this blow\\
+Might be the be-all and the end-all here,\\
+But here, upon this bank and shoal of time,\\
+We'ld jump the life to come. But in these cases\\
+We still have judgment here; that we but teach\\
+Bloody instructions, which, being taught, return\\
+To plague the inventor: this even-handed justice\\
+Commends the ingredients of our poison'd chalice\\
+To our own lips.\gloss{Macbeth begins with consequences: if the murder could end the matter, speed might seem attractive; but consequences return.}\\
+He's here in double trust;\\
+First, as I am his kinsman and his subject,\\
+Strong both against the deed; then, as his host,\\
+Who should against his murderer shut the door,\\
+Not bear the knife myself. Besides, this Duncan\\
+Hath borne his faculties so meek, hath been\\
+So clear in his great office, that his virtues\\
+Will plead like angels, trumpet-tongued, against\\
+The deep damnation of his taking-off;\gloss{Macbeth lists duties: kinship, subjecthood, hospitality, and Duncan's virtue.}\\
+And pity, like a naked new-born babe,\\
+Striding the blast, or heaven's cherubim, horsed\\
+Upon the sightless couriers of the air,\\
+Shall blow the horrid deed in every eye,\\
+That tears shall drown the wind. I have no spur\\
+To prick the sides of my intent, but only\\
+Vaulting ambition, which o'erleaps itself\\
+And falls on the other.\gloss{Macbeth names his only positive motive: ambition. This is not a proof; it is an exposure of desire.}
+\end{verse}
+
+\section*{Independent Analysis}
+Answer in complete thoughts. Your strongest response may become your first lit-anchor portfolio artifact.
+
+\begin{enumerate}[leftmargin=*]
+\item What conclusion does Macbeth's soliloquy seem to support?\studentline\studentline
+\item List three reasons Macbeth gives against murdering Duncan.\studentline\studentline\studentline
+\item What is Macbeth's only ``spur'' toward the murder? Is that spur a reason, a desire, or both?\studentline\studentline
+\item State one hidden assumption behind Macbeth's hesitation.\studentline\studentline
+\item Test the reasoning: if Macbeth's conclusion is ``I should not murder Duncan,'' does that conclusion follow from his reasons? Explain.\studentline\studentline\studentline
+\item What does this passage show about Whately's claim that logic can discipline reasoning but cannot replace virtue?\studentline\studentline\studentline
+\end{enumerate}
+
+\section*{Portfolio Artifact: Macbeth Argument Skeleton}
+Choose one claim below, or write a similar claim of your own. Then complete the four-part skeleton.
+
+\begin{itemize}[leftmargin=*]
+\item The prophecy proves Macbeth will be king.
+\item If Macbeth is destined to be king, he is not responsible for what he does.
+\item Macbeth should not kill Duncan.
+\item Ambition is Macbeth's only real reason for murder.
+\end{itemize}
+
+\textbf{Claim / conclusion:}\studentline
+\textbf{Stated reason:}\studentline
+\textbf{Hidden assumption:}\studentline
+\textbf{Does the conclusion follow? Why or why not?}\studentline\studentline\studentline
+
+\section*{Closing Synthesis}
+Whately says logic is modest: it cannot supply facts, virtue, or wisdom. Macbeth proves the point. Logic can show that prophecy does not equal permission, that possibility is not command, and that ambition is not proof. Yet Macbeth still needs moral judgment. The tragedy begins not because Macbeth cannot reason, but because he can see reasons clearly and still allows ambition to overrule judgment.
+
+\end{document}

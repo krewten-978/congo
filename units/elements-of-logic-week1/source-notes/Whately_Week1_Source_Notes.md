@@ -25,6 +25,15 @@ The student reading is **adapted and modernized** rather than quoted continuousl
 
 After Wayne reviewed the first version, the student reading was expanded so that the argument-lab procedure is taught inside the reading before students are asked to use it. The revised reading now amplifies conclusion, stated reason, hidden assumption, and test with multiple examples: popularity/justice, Macbeth and prediction, old ideas, and confidence versus proof.
 
+## Lit-anchor note
+
+Lesson 1 now includes a Macbeth lit-anchor: `Whately_Logic_Week1_Macbeth_Lit_Anchor`. It uses original Shakespeare text with light side-note glosses, not modernized replacement text. The guided passage is *Macbeth* Act 1, Scene 3, where Macbeth hears the witches' prophecy and begins interpreting it. The independent analysis passage is Act 1, Scene 7, Macbeth's soliloquy before Duncan's murder. The source text was checked against the public MIT Shakespeare edition:
+
+- Act 1, Scene 3: `https://shakespeare.mit.edu/macbeth/macbeth.1.3.html`
+- Act 1, Scene 7: `https://shakespeare.mit.edu/macbeth/macbeth.1.7.html`
+
+The lit-anchor's portfolio artifact is a Macbeth argument skeleton. Its core Lesson 1 insight is: prediction is not permission; possibility is not command; desire is not proof.
+
 ## Spelling note
 
 The author's name is Richard Whately. Wayne's email used "Wately" in one place; repo materials use the standard spelling.
