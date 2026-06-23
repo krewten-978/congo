@@ -34,6 +34,10 @@ Lesson 1 now includes a Macbeth lit-anchor: `Whately_Logic_Week1_Macbeth_Lit_Anc
 
 The lit-anchor's portfolio artifact is a Macbeth argument skeleton. Its core Lesson 1 insight is: prediction is not permission; possibility is not command; desire is not proof.
 
+## Logic test note
+
+Lesson 1 now includes a short puzzle-style assessment: `Whately_Logic_Week1_Logic_Test`. The test uses an original bell-tower scenario, "The Case of the Three Bells," to assess Whately's opening habit without requiring later formal-logic tools. Students diagnose three tempting inferences: applause as proof of truth, confidence as proof of strong reasoning, and an official sign/rule as proof that wisdom has actually occurred. The test also asks what logic can test and what still requires evidence, testimony, observation, or moral judgment. The final bridge connects the puzzle back to Macbeth's temptation to treat prophecy as proof, permission, or moral justification.
+
 ## Spelling note
 
 The author's name is Richard Whately. Wayne's email used "Wately" in one place; repo materials use the standard spelling.

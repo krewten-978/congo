@@ -18,6 +18,7 @@ Students begin by reading a modernized, student-facing adaptation drawn heavily 
 - `pdfs/Whately_Logic_Week1_Student_Reading.pdf`
 - `pdfs/Whately_Logic_Week1_Argument_Lab.pdf`
 - `pdfs/Whately_Logic_Week1_Macbeth_Lit_Anchor.pdf`
+- `pdfs/Whately_Logic_Week1_Logic_Test.pdf`
 - LaTeX sources in `tex/`
 - Source notes in `source-notes/`
 
@@ -34,4 +35,5 @@ latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/
 latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week1_Student_Reading.tex
 latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week1_Argument_Lab.tex
 latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week1_Macbeth_Lit_Anchor.tex
+latexmk -pdf -lualatex -interaction=nonstopmode -halt-on-error -outdir=pdfs tex/Whately_Logic_Week1_Logic_Test.tex
 ```
