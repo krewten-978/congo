@@ -27,4 +27,13 @@ Week 5 is the second syllogism week. Week 4 established a practical map of premi
 
 ## Literary connection note
 
-The Week 5 reading and lab include light *Macbeth* and *Julius Caesar* applications, but the full lit anchor is intentionally reserved for the next build step. The current Shakespeare examples ask whether arguments about Brutus's honor or Macbeth's fate have a form that proves their conclusions, rather than whether the whole literary interpretation is true.
+The Week 5 reading and lab include light *Macbeth* and *Julius Caesar* applications. The full lit-anchor stays with *Julius Caesar*, following the user's direction to remain with Caesar. It uses Brutus's and Antony's Act 3, Scene 2 funeral speeches to test whether public arguments about Caesar's ambition have forms that carry their conclusions. Brutus's speech is reconstructed as a valid A-A-A form whose minor premise still needs proof; Antony's speech presses on the middle term "ambitious" through counterexamples and irony.
+
+## Julius Caesar lit-anchor sources
+
+The Week 5 lit-anchor uses original Shakespeare text from:
+
+- William Shakespeare, *Julius Caesar*, Act 3, Scene 2: Brutus's funeral speech to the citizens. Source used: https://shakespeare.mit.edu/julius_caesar/julius_caesar.3.2.html
+- William Shakespeare, *Julius Caesar*, Act 3, Scene 2: Antony's funeral speech beginning "Friends, Romans, countrymen." Source used: https://shakespeare.mit.edu/julius_caesar/julius_caesar.3.2.html
+
+The Shakespeare text is not modernized; only light side glosses and logic prompts are added.

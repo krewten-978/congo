@@ -172,7 +172,7 @@ The first three weeks are already represented in the repository and should now b
 - **Student skill:** identify mood first, figure second, and test a small set of valid and invalid forms without memorizing every traditional valid mood.
 - **Macbeth / Caesar application:** previewed in the reading and lab through form tests of arguments about Brutus's honor and Macbeth's fate.
 - **Portfolio artifact:** mood-and-figure classification card with explanation of formal validity.
-- **Current repo status:** student reading and argument lab built; lit anchor and teacher guide planned next.
+- **Current repo status:** built with student reading, argument lab, Julius Caesar lit-anchor, and teacher guide.
 
 ## Full-unit sequence
 
@@ -201,7 +201,7 @@ The sequence below expands the earlier compact unit into a long twelfth-grade co
 - **Macbeth / Caesar application:** compare a formally valid classroom syllogism with a rhetorically powerful but formally unstable Shakespearean argument.
 - **Portfolio artifact:** mood-and-figure classification with explanation of validity.
 - **Why it belongs here:** The first syllogism week should be practical; the second can introduce formal classification after students understand the parts.
-- **Current repo status:** student reading and argument lab built; lit anchor and teacher guide planned next.
+- **Current repo status:** built with student reading, argument lab, Julius Caesar lit-anchor, and teacher guide.
 
 ### Week 6 — Valid Does Not Mean True
 
@@ -466,7 +466,7 @@ Recommended naming convention:
 5. Add README files for Week 2 and Week 3.
 6. Rebuild and verify PDFs for Weeks 1-3.
 7. Build Week 4 as practical syllogisms. — complete.
-8. Build Week 5 as mood and figure. — reading and lab complete; lit anchor and teacher guide next.
+8. Build Week 5 as mood and figure. — complete.
 
 ## Design decisions recorded
 
