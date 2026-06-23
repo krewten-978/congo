@@ -26,3 +26,9 @@ Public-domain source text consulted:
 - MIT Shakespeare, *Macbeth*, Act 5, Scene 8: `https://shakespeare.mit.edu/macbeth/macbeth.5.8.html`
 
 The Shakespeare text is not modernized; the handout adds only light side-note glosses.
+
+## Week 2 logic puzzle test
+
+The Week 2 test, "The Case of the Two-Faced Word," adapts the week's term/ambiguity work into a Lewis Carroll-style cabinet puzzle. Three notices each rely on one word shifting meanings: fair (just/impartial vs pleasant weather), free (liberty/protected speech vs without cost), and true (rightful/genuine vs accurate/honest). Students must identify the two-faced word, state both meanings, decide whether the notice equivocates, fix the term, and then retest whether the conclusion follows.
+
+The test deliberately spirals Week 1 by requiring conclusion, stated reason, hidden assumption, and follows/does-not-follow analysis on a fresh claim about gold ink and wisdom. The Macbeth bridge asks students to apply the same double-meaning analysis to "none of woman born," matching the Week 2 lit-anchor's focus on language that "palters" in a double sense.
