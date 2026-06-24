@@ -8,7 +8,7 @@
 
 **What We Say and What We Mean: Propositions and Clear Claims**
 
-Week 3 moves from terms to propositions. Students identify subject, predicate, quality, quantity, and the A/E/I/O forms of categorical propositions. The revised 12th-grade version corrects the O-proposition distribution rule and connects proposition work to recurring Shakespeare anchors from *Macbeth* and *Julius Caesar*.
+Week 3 moves from terms to propositions. Students identify subject, predicate, quality, quantity, and the A/E/I/O forms of categorical propositions. A key habit is spotting overreaches in scope: "All" or "None" when only "Some" holds, or unsupported "Most." The test uses four category riddles (Mammals, Birds, Insects, Planets) in the voice of a Department of Science professor asking students to locate where her statements go wrong. The revised 12th-grade version corrects the O-proposition distribution rule and connects proposition work to recurring Shakespeare anchors from *Macbeth* and *Julius Caesar*.
 
 The Macbeth lit-anchor for this week focuses on the manhood exchange in *Macbeth* Act 1, Scene 7 and the banquet scene in Act 3, Scene 4. Students translate claims such as “When you durst do it, then you were a man,” “Who dares do more is none,” and “What man dare, I dare” into clear propositions so they can test what the play is really claiming about courage, murder, fear, and moral limits.
 
@@ -24,7 +24,7 @@ The Macbeth lit-anchor for this week focuses on the manhood exchange in *Macbeth
 
 ## Portfolio Artifact
 
-Students produce a proposition translation/window note: ordinary sentence, standard form, subject and predicate, quality and quantity, and explanation of how the clearer proposition can be supported or challenged.
+Students produce a proposition translation/window note: ordinary sentence, standard form, subject and predicate, quality and quantity, and explanation of how the clearer proposition can be supported or challenged. The test additionally practices identifying and repairing scope errors in AEIO claims ("All," "None," or "Most" overreaches).
 
 The lit-anchor adds a Macbeth proposition translation chart focused on one Shakespeare line or claim about manhood, courage, fear, or guilt.
 
